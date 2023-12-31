@@ -11,7 +11,7 @@ function App() {
   
   return (
  <Routes>
-  <Route path='/' element={<FirstPG/>}/>
+  <Route path='/FirstPG' element={<FirstPG/>}/>
   <Route path='/SecondPG' element={<SecondPg/>}/>
   <Route path='/ThirdPG' element={<ThirdPg/>}/>
  </Routes>
