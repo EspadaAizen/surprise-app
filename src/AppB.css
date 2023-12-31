@@ -1,0 +1,24 @@
+.SecondApp{
+    text-align: center;
+  }
+
+.second-page{
+ background-image: url('/src/bg2.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100vw;   
+ height: 100vh;
+ background-color: #282c34;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: white;
+  }
+ .submit-clone{
+    font-size: 20px;
+    height: 50px;
+    width:400px
+ } 
+ 

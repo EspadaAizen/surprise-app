@@ -1,0 +1,38 @@
+.ThirdApp{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+
+  .third-page {
+    background-image: url('/src/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;   
+    height: 100vh;
+    backdrop-filter: blur(20px);
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .para{
+    width: 850px;
+    margin-top: -60px;
+    margin-right: -550px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  .wish{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-size: 70px;
+  }
+  .lob{
+    margin-top: -200px;
+    font-size: 50px;
+  }
