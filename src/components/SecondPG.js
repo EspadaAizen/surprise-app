@@ -1,12 +1,6 @@
 import React from 'react';
-import './AppB.css';
-import{useNavigate} from 'react-router-dom';
-function SecondPG(){
-
-    const navigate2 = useNavigate();
-function handleClick2(){
-        navigate2("/ThirdPG");
-    }
+import{Link} from 'react-router-dom';
+const SecondPG =() =>{
 return (
 <div className='SecondApp'>
     <header className='second-page'>
@@ -14,8 +8,9 @@ return (
         <h2>Woopsie you have been blepped</h2>
         <h2 className='jk'>Hehehe nahh just kidding click on the button below</h2>
         </div>
-        
-            <button className='submit-clone' onClick={handleClick2}>Click Here To See Magic Fr tho hehehe </button>
+        <Link to="/third">
+            <button className='submit-clone'>Click Here To See Magic Fr tho hehehe </button>
+            </Link>
     </header>
 </div>
 

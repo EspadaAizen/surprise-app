@@ -1,20 +1,17 @@
+//import './App.css'; 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SecondPg from './components/SecondPG';
+import FirstPG from './components/FirstPG';
+import ThirdPg from './components/ThirdPG';
 
-import './App.css'; 
-import {
-  Routes,
-  Route,
-} from 'react-router-dom';
-import SecondPg from './SecondPG';
-import FirstPG from './FirstPG';
-import ThirdPg from './ThirdPG';
-function App() {
-  
+const App = () => {
   return (
- <Routes>
-  <Route path='/' element={<FirstPG/>}/>
-  <Route path='/SecondPG' element={<SecondPg/>}/>
-  <Route path='/ThirdPG' element={<ThirdPg/>}/>
- </Routes>
+    <Router>
+    <Routes>
+      <Route exact path="/" component={FirstPG} />  {/* Main page route */}
+      <Route path="/second" component={SecondPg} /> {/* Another page route */}
+    </Routes>
+  </Router>
   );
 }
 

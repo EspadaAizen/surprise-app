@@ -1,15 +1,19 @@
+/*
+*{
+  
+} */
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-image: url('/src/bg1.jpg');
+  /*background-image: url('/src/bg1.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;   
   height: 100vh;
   backdrop-filter: blur(20px);
-  background-color: #282c34;
+  background-color: #c4d4f5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +27,25 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .submit{
   font-size: 20px;
   height: 50px;
   width:400px
 } 
+.para{
+  width: 850px;
+  margin-top: -60px;
+  margin-right: -550px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.wish{
+  margin-top: 5px;
+  margin-bottom: 35px;
+  font-size: 70px;
+}
+.lob{
+  margin-top: -200px;
+  font-size: 50px;
+}

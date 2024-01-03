@@ -1,13 +1,8 @@
-import './App.css'; 
+
 import React from 'react';
-import{useNavigate} from 'react-router-dom';
+import{Link} from 'react-router-dom';
 
-function FirstPG(){
-    const navigate = useNavigate();
-
-function handleClick(){
-    navigate("/SecondPG")
-}
+const FirstPG =() =>{
 return(
     <>
     <div className="App">
@@ -15,8 +10,9 @@ return(
         <div className="wlcm">
         <h2 >Welcome To Most Confidential Domain</h2>
         <h2>Your Highness</h2></div> 
-        
-        <button className='submit' onClick={handleClick}>Click Here To See Magic </button>   
+        <Link to="/"target="_blank" rel="noopener noreferrer">
+        <button className='submit'>Click Here To See Magic </button> </Link>    
+          
       </header>
     </div>
     </>

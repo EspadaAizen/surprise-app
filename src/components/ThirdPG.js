@@ -1,6 +1,6 @@
-import './AppC.css';
+//import './AppC.css'
 import React from 'react';
-function ThirdPG(){
+const ThirdPG =() =>{
 return (
 <div className='ThirdApp'>
     <header className='third-page'>
