@@ -1,13 +1,10 @@
-/*
-*{
-  
-} */
+
 .App {
     text-align: center;
   }
   
   .App-header {
-    /*background-image: url('/src/bg1.jpg');*/
+    background-image: url('/src/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;   

@@ -1,4 +1,4 @@
-//import './AppC.css'
+import './AppC.css';
 import React from 'react';
 const ThirdPG =() =>{
 return (
