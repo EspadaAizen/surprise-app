@@ -7,6 +7,7 @@ import ThirdPg from './components/ThirdPG';
 const App = () => {
   return (
     <Router>
+      <FirstPG/>
     <Switch>
       <Route exact path="/" component={FirstPG} />  {/* Main page route */}
       <Route path="/second" component={SecondPg} /> {/* Another page route */}
