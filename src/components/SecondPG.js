@@ -9,7 +9,7 @@ return (
         <h2>Woopsie you have been blepped</h2>
         <h2 className='jk'>Hehehe nahh just kidding click on the button below</h2>
         </div>
-        <Link to="/first">
+        <Link to="/end">
             <button className='submit-clone'>Click Here To See Magic Fr tho hehehe </button>
             </Link>
     </header>

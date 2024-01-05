@@ -1,8 +1,9 @@
+import React from 'react'
 import './AppC.css';
-import React from 'react';
-const ThirdPG =() =>{
-return (
-<div className='ThirdApp'>
+function EndPG() {
+  return (
+    <div>
+      <div className='ThirdApp'>
     <header className='third-page'>
         <div className='wish'>
         <h2 >Happy New Year</h2>
@@ -24,7 +25,8 @@ return (
         </div>  
     </header>
 </div>
-);
+    </div>
+  )
 }
 
-export default ThirdPG;
+export default EndPG
