@@ -1,19 +1,11 @@
 //
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import FirstPG from './components/FirstPG';
-import SecondPg from './components/SecondPG';
-import ThirdPg from './components/ThirdPG';
+
+//import FirstPG from './components/FirstPG';
 
 const App = () => {
   return (
-    <Router>
-      <FirstPG/>
-    <Switch>
-      <Route exact path="/" component={FirstPG} />  {/* Main page route */}
-      <Route path="/second" component={SecondPg} /> {/* Another page route */}
-      <Route path="/third" component={ThirdPg} /> {/* Another page route */}
-    </Switch>
-  </Router>
+    <h1>Hello</h1>
+    
   );
 }
 
