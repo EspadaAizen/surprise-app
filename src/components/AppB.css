@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin:auto;
+ 
+}
 .SecondApp{
     text-align: center;
   }
@@ -9,16 +14,33 @@
  width: 100vw;   
  height: 100vh;
  background-color: #282c34;
+ background-position: 69%;
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
- font-size: calc(10px + 2vmin);
  color: white;
   }
  .submit-clone{
-    font-size: 20px;
-    height: 50px;
-    width:400px
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border-radius: 90px;
+  font-size: 20px;
+  height: 50px;
+  width:400px;
+  color: white;
  } 
  
+ @media screen and (max-width: 720px) and (min-width: 40px){
+  .second-page{
+    background-position: 40%;
+  }
+  h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .submit-clone{
+    width: 300px;
+    font-size: 15px;
+  }
+}

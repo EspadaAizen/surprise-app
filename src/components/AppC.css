@@ -1,6 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin:auto;
+}
 .ThirdApp{
-    margin: auto;
-    padding: auto;
     text-align: center;
   }
 
@@ -11,12 +13,12 @@
     width: 100vw;   
     height: 100vh;
     backdrop-filter: blur(20px);
+    background-position: 69%;
     background-color: #282c34;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: white;
   }
   .para{
@@ -35,4 +37,24 @@
   .lob{
     margin-top: -200px;
     font-size: 50px;
+  }
+
+  @media screen and (max-width: 720px) and (min-width: 40px){
+    .third-page{
+      background-position-x: 10%;
+    }
+    .wish{
+      margin: 0%;
+      font-size: 20px;
+    }
+    .lob{
+      margin: 0%;
+      font-size: 20px;
+    }
+    .para{
+      margin: 20px;
+      width: 300px;
+      font-size: 15px;
+      backdrop-filter: blur(2px);
+    }
   }

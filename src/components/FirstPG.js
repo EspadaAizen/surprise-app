@@ -9,9 +9,10 @@ return(
    <header className="App-header">
   <div className="wlcm">
   <h2 >Welcome To Most Confidential Domain</h2>
-  <h2>Your Highness</h2></div> 
+  <h2>Your Highness</h2>
   <Link to="/second">
   <button className='submit'>Click Here To See Magic </button> </Link>  
+  </div> 
 </header>
  </div>
  

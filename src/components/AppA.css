@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin:auto;
+ 
+}
 
 .App {
     text-align: center;
@@ -7,42 +12,43 @@
     background-image: url('/src/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 69%;
     width: 100vw;   
     height: 100vh;
-    backdrop-filter: blur(20px);
     background-color: #c4d4f5;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
     color: white;
   }
   
-  .App-link {
-    color: #61dafb;
+  h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #e3ecee;
   }
   
   .submit{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 90px;
     font-size: 20px;
     height: 50px;
-    width:400px
+    width:400px;
+    color: white;
   } 
-  .para{
-    width: 850px;
-    margin-top: -60px;
-    margin-right: -550px;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-  }
-  .wish{
-    margin-top: 5px;
-    margin-bottom: 35px;
-    font-size: 70px;
-  }
-  .lob{
-    margin-top: -200px;
-    font-size: 50px;
+ 
+  @media screen and (max-width: 720px){
+    .App-header{
+      background-position: 65%;
+    }
+    h2{
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    .submit{
+      width: 300px;
+      font-size: 15px;
+    }
   }
