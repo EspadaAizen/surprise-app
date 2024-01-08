@@ -1,11 +1,11 @@
 *{
   box-sizing: border-box;
   margin:auto;
- 
 }
 
 .App {
     text-align: center;
+    font-family:cursive ;
   }
   
   .App-header {
@@ -19,36 +19,52 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
     color: white;
   }
   
-  h2 {
+.head1  {
     font-size: 50px;
     margin-bottom: 10px;
-    color: #e3ecee;
+    color: #f2eaea;
   }
+.head2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #f2eaea;
+}
+  
   
   .submit{
     background-color: transparent;
     backdrop-filter: blur(15px);
     border-radius: 90px;
-    font-size: 20px;
-    height: 50px;
-    width:400px;
-    color: white;
+    font-size: 45px;
+    border-top: solid  rgb(47, 83, 181);
+    border-bottom: solid  rgba(132, 8, 181, 0.837);
+    border-left: solid  rgb(47, 83, 181);
+    border-right: solid  rgb(153, 13, 208);
+    color: #f2eaea;
+    cursor:pointer;
+    font-family:cursive ;
   } 
  
   @media screen and (max-width: 720px){
     .App-header{
       background-position: 65%;
     }
-    h2{
+    .head1 h2 {
+      margin-top: -20%;
       margin-bottom: 10px;
-      font-size: 20px;
+      font-size: 50px;
+    }
+    .head2 h2{
+      margin-bottom: 30px;
+      font-size: 50px;
     }
     .submit{
+      height: 40px;
       width: 300px;
-      font-size: 15px;
+      font-size: 20px;
     }
   }

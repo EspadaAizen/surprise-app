@@ -8,8 +8,12 @@ return(
  <div className='App'>
    <header className="App-header">
   <div className="wlcm">
-  <h2 >Welcome To Most Confidential Domain</h2>
-  <h2>Your Highness</h2>
+    <div className='head1'>
+    <h2 >Welcome To Most Confidential Domain</h2>
+    </div>
+    <div className='head2'>
+    <h2>Your Highness</h2>
+    </div>
   <Link to="/second">
   <button className='submit'>Click Here To See Magic </button> </Link>  
   </div> 

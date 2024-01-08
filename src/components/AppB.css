@@ -5,6 +5,7 @@
 }
 .SecondApp{
     text-align: center;
+    font-family:cursive ;
   }
 
 .second-page{
@@ -21,26 +22,48 @@
  justify-content: center;
  color: white;
   }
+
+  .head1  {
+    font-size: 50px;
+    margin-bottom: 60px;
+    color: #f2eaea;
+  }
+.head2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #f2eaea;
+}
+
  .submit-clone{
   background-color: transparent;
   backdrop-filter: blur(15px);
   border-radius: 90px;
-  font-size: 20px;
-  height: 50px;
-  width:400px;
-  color: white;
+  font-size: 35px;
+  border-top: solid  rgb(36, 66, 150);
+  border-bottom: solid  rgba(103, 11, 140, 0.837);
+  border-left: solid  rgb(36, 66, 150);
+  border-right: solid  rgb(153, 13, 208);
+  color: #f2eaea;
+  cursor:pointer;
+  font-family:cursive ;
  } 
  
  @media screen and (max-width: 720px) and (min-width: 40px){
   .second-page{
     background-position: 40%;
   }
-  h2{
+  .head1 h2 {
+    margin-top: -20%;
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+  .head2 h2{
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 40px;
   }
   .submit-clone{
-    width: 300px;
-    font-size: 15px;
+    height: 40px;
+      width: 300px;
+      font-size: 20px;
   }
 }
